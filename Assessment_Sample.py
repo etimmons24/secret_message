@@ -65,9 +65,6 @@ def print_secret_message(url, console=False):
         for row in range(len(grid), 0, -1):
             print_it(''.join(grid[row-1]), f, console)
 
-        """ for row in grid:
-            print_it(''.join(row), f, console) """
-
     print(f"Secret message has been written to '{file_name}'.")
 
 
