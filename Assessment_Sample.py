@@ -8,7 +8,7 @@ and writes a secret message to a text file in a grid format. The characters are 
 and the output is reversed vertically to match the original document's layout.
 Args:
     url (str): The URL of the Google Document containing character data.
-    console (bool): Whether to print messages to the console. Default is True.
+    console (bool): Whether to print messages to the console. Default is False.
 
     Returns:
         None
@@ -89,3 +89,4 @@ if __name__ == '__main__':
     #url = "https://docs.google.com/document/d/e/2PACX-1vRMx5YQlZNa3ra8dYYxmv-QIQ3YJe8tbI3kqcuC7lQiZm-CSEznKfN_HYNSpoXcZIV3Y_O3YoUB1ecq/pub"
     url = "https://docs.google.com/document/d/e/2PACX-1vQGUck9HIFCyezsrBSnmENk5ieJuYwpt7YHYEzeNJkIb9OSDdx-ov2nRNReKQyey-cwJOoEKUhLmN9z/pub"
     print_secret_message(url, console=True)
+
