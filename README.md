@@ -7,7 +7,7 @@ with the optional console parameter.  This code file uses all Python code.
 
 ### Parameters:
     url (str): The URL of the Google Document containing character data.
-    console (bool): Whether to print messages to the console. Default is True.
+    console (bool): Whether to print messages to the console. Default is False.
 
     Returns:
         None
